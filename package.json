@@ -1,0 +1,25 @@
+{
+  "name": "socket-ext",
+  "version": "0.0.1",
+  "description": "extended sosket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vladislav-jomedia/socket-ext.git"
+  },
+  "keywords": [
+    "socket",
+    "tls",
+    "net",
+    "req/rep"
+  ],
+  "author": "VladislavP",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vladislav-jomedia/socket-ext/issues"
+  },
+  "homepage": "https://github.com/vladislav-jomedia/socket-ext"
+}
