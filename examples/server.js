@@ -1,10 +1,10 @@
 'use strict'
 
-const fs = require('fs');
-const net = require('tls');
-const RRSocket = require('reqrepable-socket');
+var fs = require('fs');
+var net = require('tls');
+var RRSocket = require('reqrepable-socket');
 
-const options = {
+var options = {
   key: fs.readFileSync('Key.key'),
   cert: fs.readFileSync('Cert.pem')
 };

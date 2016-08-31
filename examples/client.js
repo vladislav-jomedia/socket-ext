@@ -1,11 +1,11 @@
 'use strict'
 
-const fs = require('fs');
-const net = require('tls');
-const RRSocket = require('reqrepable-socket');
-const reconnect = require('../index.js').ReConnect
+var fs = require('fs');
+var net = require('tls');
+var RRSocket = require('reqrepable-socket');
+var reconnect = require('../index.js').ReConnect
 
-const options = {
+var options = {
   port: 3000,
   host: 'ta.infra.systems',
   key: fs.readFileSync('Key.key'),
